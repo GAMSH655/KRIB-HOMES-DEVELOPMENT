@@ -1,0 +1,40 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+.header{
+     background-color: #EBEBEB;
+     ;
+     margin: 20px auto;
+     width: 900px;
+     border-radius: 30px;
+}
+.navContainer{
+     display: flex;
+     justify-content: flex-end;
+     padding: 30px;
+}
+.logo-text{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+     margin-right: auto;
+     font-weight: bolder;
+     font-size: x-large;
+     text-transform: capitalize;
+}
+.navlinks-container a {
+     text-decoration: none;
+     font-weight: 400;
+     font-size: 20px;
+     text-transform: capitalize;
+     color: black;
+     margin-right: 40px;
+}
+#headerbtn {
+    background-color:#000000;
+    color: #fff;
+    width: 100px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+}
