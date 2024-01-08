@@ -38,3 +38,60 @@
     border: none;
     text-transform: capitalize;
 }
+/* section-1 code */
+.section-1 {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 90px;
+}
+#first-txt{
+     font-size: 80px;
+     font-weight: 400;
+     text-transform: capitalize;
+     padding: 20px;
+}
+#kribtext{
+     color: #000000;
+     font-weight: 700px;
+     font-size: 110px;
+     text-transform: capitalize;
+     word-spacing: 90px;
+     padding: 10px;
+}
+#spn-1{
+    font-weight: 700px;
+    font-size: 110px;
+    color: #302524;
+    text-transform: capitalize;
+    padding: 10px;
+}
+#discover-txt {
+     font-weight: 500;
+     font-size: 24px;
+     color: #969696;
+     padding-left: 20px;
+}
+#discoverbtn{
+    background-color:#000000;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#play-btn{
+    border: 2px solid black;
+    width: 45px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#modern-house{
+      height: 500px;
+      width: 500px;
+      border-radius: 50px;
+}
