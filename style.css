@@ -2,9 +2,12 @@
      padding: 0;
      margin: 0;
 }
+body {
+     background-color: #F7F8FA;
+
+}
 .header{
-     background-color: #EBEBEB;
-     ;
+     background-color: #EBEBEB;;
      margin: 20px auto;
      width: 900px;
      border-radius: 30px;
@@ -82,7 +85,7 @@
     margin-top: 10px;
     margin-left: 20px;
 }
-#play-btn{
+#play-btn {
     border: 2px solid black;
     width: 45px;
     height: 50px;
@@ -94,4 +97,42 @@
       height: 500px;
       width: 500px;
       border-radius: 50px;
+}
+.overlapping-container{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 15px;
+      align-items: center;
+}
+.firstOutterContainer {
+     background-color:#fff;
+     margin: 20px auto;
+     width: 900px;
+     border: 1.5px solid black;
+     border-radius: 20px;
+}
+.firstdiv{
+      padding: 10px;
+      width: 200px;
+      flex-basis: 100px;
+      border: none;
+      border-right: 2px solid  #D4D4D4;
+      text-align: start;
+}
+#downtext{
+      padding-top: 20px; 
+      font-size: medium;
+      font-weight: normal;
+      text-transform: capitalize;
+}
+.fa-solid {
+      padding-right: 10px;
+}
+#searchBtn{
+     background-color: #000000;
+     width: 100px;
+     height: 80px;
+     border-radius: 50%;
+     margin-top: 10px;
+     margin-left: 10px;
 }
