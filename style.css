@@ -108,17 +108,17 @@ body {
 .firstOutterContainer {
      background-color:#fff;
      margin: 20px auto;
-     width: 900px;
+     width: 1000px;
      border: 1.5px solid black;
      border-radius: 20px;
 }
 .firstdiv{
       padding: 10px;
-      width: 200px;
-      flex-basis: 100px;
+      width: 350px;
+      flex-basis: 200px;
       border: none;
       border-right: 2px solid  #D4D4D4;
-      text-align: start;
+      text-align:start ;
 }
 #downtext{
       padding-top: 20px; 
@@ -137,4 +137,6 @@ body {
      border-radius: 50%;
      margin-top: 10px;
      margin-left: 10px;
+     border:none;
+     outline: navy;
 }
