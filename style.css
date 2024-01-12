@@ -140,3 +140,70 @@ body {
      border:none;
      outline: navy;
 }
+
+.gridContainer{
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+      padding: 50px;
+      width:  500px;
+}
+.gridBOX{
+      background-color:#000000;
+      margin: 20px;
+      width: 250px;
+      padding: 10px;
+      border-radius: 20px;
+}
+#gridTExt{
+      font-size: 19px ;
+      font-weight: bold;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      padding-left:5px;
+}
+#gridText2{
+      font-weight: bolder;
+      font-size: xx-large;
+      color: #FFFFFF;
+      padding-top: 30px;
+}
+.sided-container{
+      width: 550px;
+}
+#flexFirst-text{
+      color: greenyellow;
+      color: #000000;
+      font-weight: lighter;
+      font-size: 50px;
+      text-transform: capitalize;
+      padding: 20px;
+      letter-spacing: 5px;
+}
+#spn-2 {
+     color: #000000;
+     font-weight: bold;
+     font-size: 50px;
+     text-transform: capitalize;
+}
+#flex-p {
+      font-weight: 400px;
+      font-size: 21px;
+      text-transform: lowercase;
+      padding: 20px;
+      line-height: 30px;
+      letter-spacing: 3px;
+}
+.grid-flex-container{
+      display: flex;
+      justify-content: space-between;
+      background-color: #F7F8FA;
+      margin-top: 50px;
+}
+#watch {
+     position: relative;
+      left: 260px;
+      bottom: 30px;
+      font-weight: bold;
+      font-size: 21px;
+      text-transform: lowercase;
+}
