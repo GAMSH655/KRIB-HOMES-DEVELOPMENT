@@ -100,9 +100,6 @@ body {
     margin-top: 10px;
     margin-left: 20px;
 }
-#play-btn {
-      
-}
 #modern-house{
       height: 500px;
       width: 500px;
@@ -200,9 +197,12 @@ body {
       font-weight: 400px;
       font-size: 21px;
       text-transform: lowercase;
-      padding: 20px;
+     
       line-height: 30px;
-      letter-spacing: 3px;
+      letter-spacing: 5px;
+}
+#flexFirst-text{
+       text-align: center;
 }
 .grid-flex-container{
       display: flex;
@@ -220,7 +220,7 @@ body {
       text-transform: lowercase;
       height: 70px;
       width: 80px;
-      border: solid black 5px;
+      border: solid black 1.5px;
       border-radius: 200px;
 }
 .features-props{
@@ -364,10 +364,109 @@ body {
  }
  .newsLettrContainer{
        display: flex;
-       border: 1.5px solid black;
+       border: .5px solid black;
        border-radius: 30px;
  }
  .cont1{
        margin: 50px;
-      
  }
+ #articleText{
+     font-weight: bold;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 3rem;
+ }
+ #innerArt{
+       font-size: 3rem;
+        font-weight: bolder;
+ }
+ .articleP{
+      text-align: center;
+      font-size: large;
+      font-size: 1.5rem;
+      padding-top: 15px;
+      letter-spacing: 2.5px;
+ }
+ #inner {
+       display: block;
+ }
+#articleHouse{
+ height: 200px;
+ width: 200px;
+ padding-bottom: 5px;
+}
+.artContent{
+       padding: 10px;
+}
+.read{
+       font-weight: bolder;
+}
+.houseCard{
+       width: 300px;
+       text-align: center;
+       line-height: 25px;
+        border-radius: 20px;
+       box-shadow:5px -2px 5px 5px rgba(0, 0, 0, 0.144);
+       margin-top: 30px;
+       margin-left: 40px;
+}
+.articleHouses {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+#more{
+            background-color:#000000;
+            color: #fff;
+            width: 190px;
+            padding: 15px;
+            border-radius: 20px;
+            border: none;
+            text-transform: capitalize;
+            margin-left: 550px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+}
+
+.footer{ 
+      background-color: #EBEBEB;
+;
+}
+.innerFooter{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.inner2{
+      display: flex;
+      padding: 10px;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      background-color:#E1E1E1;
+    
+}
+#kribs{
+       margin-top: 40px;
+       font-weight: bold;
+       text-align: center;
+       text-transform: capitalize;
+       font-size: 2.5rem;
+}
+.footerBtn{
+       background-color: black;
+       color: white;
+       width: 120px;
+       border-radius: 20px;
+       padding: 20px;
+       font-weight: bolder;
+       cursor: pointer;
+}
+:where(#about, #properties ,#blogs ){
+      margin: 20px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 1.5rem;
+  }

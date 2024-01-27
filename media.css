@@ -16,6 +16,15 @@
         text-align: center;
         font-size: medium;
     }
+    #flex-p {
+        font-weight: 400px;
+        font-size: 25px;
+        text-transform: lowercase;
+        padding: 20px;
+        line-height: 30px;
+        letter-spacing: 5px;
+
+    }
     #kribtext{
         text-align: center;
         font-size: medium;
@@ -57,10 +66,10 @@
         flex-wrap: wrap;
      }
      .homeBox{
-        margin: 15px;
+        margin: 40px;
      }
      #house{
-         margin-left: 20px;
+         margin-left: 60px;
      }
     .innerdiv{
         display: flex;
@@ -85,6 +94,32 @@
          left: 178px;
          
     }
+    
+.articleHouses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.inner2{
+     flex-wrap: wrap;
+}
+.innerFooter{
+    flex-wrap: wrap;
+}
+
+#more{
+    background-color:#000000;
+    color: #fff;
+    width: 190px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+     margin: 100px;
+}
+
 
     
 }
