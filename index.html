@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KRIB HOME</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
@@ -15,8 +16,21 @@
                  <a href="">about us</a>
                  <a href="">properties</a>
                  <a href="">blog</a>
+                 <button id="headerbtn">login</button>
             </div>
-            <button id="headerbtn">login</button>
+            <button id="menuBtn"><i class="fa-solid fa-bars fa-2xl"></i></button>
+         </div>
+     </div>
+     <div class="mobile-header">
+         <div class="mobile-navContainer">
+            <h3 class="logo-text">krib homes</h3>
+            <div class="navlinks-container">
+                 <a href="">about us</a>
+                 <a href="">properties</a>
+                 <a href="">blog</a>
+                 <button id="headerbtn">login</button>
+            </div>
+          
          </div>
      </div>
      <section class="section-1">
@@ -44,7 +58,9 @@
                <p> <i class="fa-solid fa-light fa-money-bill" style="color: #000000;"></i>location</p>
                <p id="downtext">$6000 - $12000 / month</p>
             </div>
-             <button id="searchBtn"><i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></i></button>
+            <div class="firstdiv">
+               <button id="searchBtn"><i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #ffffff;"></i></button>
+            </div>
             </div>
      </div>
        <div class="grid-flex-container">
@@ -77,6 +93,100 @@
        <p id="watch">watch demo</p>
      </div>
      <!-- end of sided container -->
+       </div>k
+
+       <div class="features-props">
+          <h3 id="features_text">features properties</h3>
+          <div class="featureSelector">
+             <button id="duplex">duplex</button>
+             <button id="apartment">apartment</button>
+             <button id="studio">studio</button>
+             <button id="bungalow">bungalow</button>
+          </div>
+           <div class="f">
+            <div class="feature-homes">
+               <div class="homeBox">
+                  <img src="./ASSETS/treehouse.png" id="house">
+                  <p id="houseName">cameroon</p>
+                  <div class="innerdiv">
+                     <p id="location">safe location <i class="fa-solid fa-location-dot"></i></p>
+                     <p id="solar">solar powered <i class="fa-solid fa-bolt"></i></p>
+                     <p id="gym">gym <i class="fa-solid fa-dumbbell"></i></p>
+                  </div>
+                  <p id="housePrice">N200,000</p>
+               </div>
+               <div class="homeBox">
+                  <img src="./ASSETS/bigwhitehouse.png" id="house">
+                  <p id="houseName">cameroon</p>
+                  <div class="innerdiv">
+                     <p id="location">safe location <i class="fa-solid fa-location-dot"></i></p>
+                     <p id="solar">solar powered <i class="fa-solid fa-bolt"></i></p>
+                     <p id="gym">gym <i class="fa-solid fa-dumbbell"></i></p>
+                  </div>
+                  <p id="housePrice">N130,000</p>
+               </div>
+               <div class="homeBox">
+                  <img src="./ASSETS/brownroofhouse.png" id="house">
+                  <p id="houseName">cameroon</p>
+                  <div class="innerdiv">
+                     <p id="location">safe location <i class="fa-solid fa-location-dot"></i></p>
+                     <p id="solar">solar powered <i class="fa-solid fa-bolt"></i></p>
+                     <p id="gym">gym <i class="fa-solid fa-dumbbell"></i></p>
+                  </div>
+                  <p id="housePrice">N190,000</p>
+               </div>
+               <div class="homeBox">
+                  <img src="./ASSETS/carhouse.png" id="house">
+                  <p id="houseName">cameroon</p>
+                  <div class="innerdiv">
+                     <p id="location">safe location <i class="fa-solid fa-location-dot"></i></p>
+                     <p id="solar">solar powered <i class="fa-solid fa-bolt"></i></p>
+                     <p id="gym">gym <i class="fa-solid fa-dumbbell"></i></p>
+                  </div>
+                  <p id="housePrice">N800,000</p>
+               </div>
+               <div class="homeBox">
+                  <img src="./ASSETS/grasswhitehouse.png" id="house">
+                  <p id="houseName">cameroon</p>
+                  <div class="innerdiv">
+                     <p id="location">safe location <i class="fa-solid fa-location-dot"></i></p>
+                     <p id="solar">solar powered <i class="fa-solid fa-bolt"></i></p>
+                     <p id="gym">gym <i class="fa-solid fa-dumbbell"></i></p>
+                  </div>
+                  <p id="housePrice">N400,000</p>
+               </div>
+               <div class="homeBox">
+                  <img src="./ASSETS/finehouse.png" id="house">
+                  <p id="houseName">cameroon</p>
+                  <div class="innerdiv">
+                     <p id="location">safe location <i class="fa-solid fa-location-dot"></i></p>
+                     <p id="solar">solar powered <i class="fa-solid fa-bolt"></i></p>
+                     <p id="gym">gym <i class="fa-solid fa-dumbbell"></i></p>
+                  </div>
+                  <p id="housePrice">N100,000</p>
+               </div>
+             </div>
+           </div>
+          <div class="pageNumbers">
+            <p id="numbers" class="num1"> 1 </p>
+            <p id="numbers"> 2</p>
+            <p id="numbers"> 3</p>
+            <p id="numbers"> 4 </p>
+            <p id="numbers"> 5 </p>
+            <p id="numbers"> 6 </p>
+            <p id="numbers"> 7 </p>
+            <p id="numbers"> 8  <i class="fa-solid fa-chevron-right"></i></p>
+          </div>
        </div>
+
+       <div class="newsLettrContainer">
+         <div class="cont1">
+            <p id="suscribe">suscribe to our <span id="news">newsletter</span></p>
+            <p id="sustext">Get the latest news and information regarding new  <br> listings and properties via mail</p>
+            <input type="text"> <button id="susBtn">suscribe</button>
+         </div>
+         <img src="./ASSETS/modern-residential-district-with-green-roof-balcony-generated-by-ai 1.png" id="susHouse" alt="">
+       </div>
+     
 </body>
 </html>

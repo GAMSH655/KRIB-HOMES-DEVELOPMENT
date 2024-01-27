@@ -1,0 +1,90 @@
+@media only screen and (max-width:768px) {
+    .navlinks-container{
+         display: none;
+    }
+    .header {
+         width: 350px;
+    }
+    .section-1 {
+        flex-wrap: wrap;
+    }
+    #menuBtn{
+        display: block;
+        background-color: transparent;
+    }
+    .sub-section-1{
+        text-align: center;
+        font-size: medium;
+    }
+    #kribtext{
+        text-align: center;
+        font-size: medium;
+    }
+    #modern-house{
+        height: 300px;
+        width: 300px;
+        border-radius: 50px;
+    }
+    .overlapping-container{
+          flex-wrap: wrap;
+    }
+    .firstdiv{
+        border: 1.5px solid black;
+         box-shadow: 0px 0px 0px 0px black;
+         margin: 10px;
+         padding: 5px;
+         text-align: center;
+    }
+    #downtext{
+         padding: 20px;
+    }
+    .grid-flex-container , .gridContainer{
+         display: flex;
+         flex-wrap: wrap;
+    }
+     #gridTExt , #gridText2{
+         text-align: center;
+     }
+     .featureSelector{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+     }
+     :where(#duplex, #apartment ,#studio , #bungalow){
+        margin: 5px;
+     }
+     .feature-homes{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .homeBox{
+        margin: 15px;
+     }
+     #house{
+         margin-left: 20px;
+     }
+    .innerdiv{
+        display: flex;
+        background-color: #909090a4;
+        margin-left: 15px;
+    }
+    #houseName ,#housePrice{
+        text-align: center;
+    }
+    .newsLettrContainer{
+        flex-wrap: wrap;
+    }
+    #susHouse{
+        height: 300px;
+        width: 300px;
+    }
+    #susBtn{
+         background-color:black;
+         color: white;
+         position: relative;
+         bottom: 65px;
+         left: 178px;
+         
+    }
+
+    
+}
