@@ -5,8 +5,60 @@
     .header {
          width: 350px;
     }
+    
+   #changeBg {
+    display: block;
+    background-color:#000000;
+    color: #fff;
+    width: 100px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+}
+    .mobile-header{
+        display: none;
+        padding: 10px;
+        background-color: wheat;
+        box-shadow:5px 2px 5px 5px rgba(0, 0, 0, 0.144);
+        position:absolute;
+        z-index: 1;
+        left: 10px;
+        width: 350px;
+
+        animation-name: Xaxis;
+        animation-duration: .9s;
+        animation-timing-function: ease-out;
+    }
+    @keyframes  Xaxis {
+        0%{ transform: translateY(-150px);}
+    }
+    #moblink{
+        display: block;
+        padding: 30px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        border-bottom: 1.5px solid black;
+        text-transform: capitalize;
+        color: black;
+    }
+    #mobheaderbtn{
+        background-color:#000000;
+        color: #fff;
+        width: 150px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        text-transform: capitalize;
+        margin-left:  120px;
+        margin-top: 20px;
+    }
     .section-1 {
         flex-wrap: wrap;
+        position:relative;
     }
     #menuBtn{
         display: block;

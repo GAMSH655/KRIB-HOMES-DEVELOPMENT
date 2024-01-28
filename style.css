@@ -41,6 +41,15 @@ body {
     border: none;
     text-transform: capitalize;
 }
+#changeBg{
+       display: block;
+       background-color:transparent;
+       color: #fff;
+       width: 100px;
+       padding: 8px;
+       border-radius: 20px;
+       border: none;
+}
 
 #menuBtn {
     background-color:#000000;
