@@ -131,16 +131,16 @@ body {
 .firstdiv{
       padding: 10px;
       width: 350px;
-      flex-basis: 200px;
       border: none;
       border-right: 2px solid  #D4D4D4;
-      text-align:start ;
+      text-align:center ;
 }
 #downtext{
       padding-top: 20px; 
       font-size: medium;
       font-weight: normal;
       text-transform: capitalize;
+      text-align: center;
 }
 .fa-solid {
       padding-right: 10px;

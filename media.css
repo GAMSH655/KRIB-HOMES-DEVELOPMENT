@@ -19,8 +19,8 @@
     .mobile-header{
         display: none;
         padding: 10px;
-        background-color: wheat;
-        box-shadow:5px 2px 5px 5px rgba(0, 0, 0, 0.144);
+        background-color: white;
+        box-shadow:5px 10px 5px 5px rgba(0, 0, 0, 0.144);
         position:absolute;
         z-index: 1;
         left: 10px;
@@ -95,9 +95,10 @@
          margin: 10px;
          padding: 5px;
          text-align: center;
+         width: 100%;
     }
     #downtext{
-         padding: 20px;
+         padding-top: 20px;
     }
     .grid-flex-container , .gridContainer{
          display: flex;
