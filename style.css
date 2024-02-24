@@ -195,6 +195,7 @@ body {
       text-transform: capitalize;
       padding: 20px;
       letter-spacing: 5px;
+
 }
 #spn-2 {
      color: #000000;
@@ -206,9 +207,10 @@ body {
       font-weight: 400px;
       font-size: 21px;
       text-transform: lowercase;
-     
+       color: green;
       line-height: 30px;
       letter-spacing: 5px;
+      margin-left: 40px;
 }
 #flexFirst-text{
        text-align: center;
@@ -275,12 +277,15 @@ body {
 #house{
        height: 250px;
        width: 250px;
+       margin-left: 50px;
+
 }
 #houseName{
       color: #000000;
       font-weight: bold;
-      font-size: 2rem;
+      font-size: 1.5;
       text-transform: capitalize;
+      text-align: center;
 }
 .innerdiv{
        display: flex;
@@ -303,6 +308,7 @@ body {
       font-size: 2rem;
       text-transform: capitalize;
       padding-top: 9px;
+      text-align: center;
 }
 .pageNumbers {
        color: red;

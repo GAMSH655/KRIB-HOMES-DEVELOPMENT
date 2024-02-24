@@ -21,6 +21,7 @@
         padding: 10px;
         background-color: white;
         box-shadow:5px 10px 5px 5px rgba(0, 0, 0, 0.144);
+        backdrop-filter: blur(150px);
         position:absolute;
         z-index: 1;
         left: 10px;
