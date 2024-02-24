@@ -290,11 +290,12 @@ body {
 .innerdiv{
        display: flex;
        background-color: #909090a4;
-       padding: px;
+       padding: 10px;
        width: 350px;
        border-radius: 20px;
        margin: 10px;
        margin-right: 10px;
+       text-align: center;
 }
 :where(#gym ,#solar,#location){
       text-align: center;
