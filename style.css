@@ -207,7 +207,7 @@ body {
       font-weight: 400px;
       font-size: 21px;
       text-transform: lowercase;
-       color: green;
+       /* color: green; */
       line-height: 30px;
       letter-spacing: 5px;
       margin-left: 40px;
